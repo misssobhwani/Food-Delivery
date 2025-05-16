@@ -1,41 +1,39 @@
+🍔 Food Delivery App
+
 🚀 Responsive Login & Home Page App | Built with React & Next.js
 
-Overview:-
+**Overview**:-
 This project is a fully responsive, production-ready React/Next.js application developed by extracting design assets from a Figma template. It features pixel-perfect Login and Home pages based on the provided design.
 
-Features:-
-Implemented fully responsive Login and Home pages based on design specs
+🚀 Features
+Fully responsive Login and Home pages
 
-If you are a new user and don’t have credentials, you can navigate to the Sign Up page
+Extracted and applied design assets: icons, fonts, colors, layout 🎨
 
-Sign Up page allows creating an account with password validation requiring a minimum of 8 characters
+Icons are **custom SVGs** — no external icon libraries used
 
-User credentials are stored in localStorage due to absence of a backend database
+Email and password form **validation** on login/signup pages (min. 8 chars password) 🔐
 
-Only valid credentials saved in localStorage allow successful login
+Users can sign up if they don’t have credentials
 
-Upon successful login, the app navigates you automatically to the Home page
+Credentials are stored in **Local Storage** (for demo purposes)
 
-Smooth client-side routing and state management using Next.js navigation.
+Only valid credentials can log in
 
-Icons are custom SVGs — no external icon libraries used
+Successful login redirects to the Home page
 
-Tech Stack
-React — Frontend UI library
+Seamless navigation using Next.js client routing
 
-Next.js — React framework with server/client routing
+🛠️ Tech Stack
+Framework: Next.js
 
-Tailwind CSS & Styled component  — Utility-first styling for responsive design
+Styling: Tailwind CSS && Styled components
 
-Jest — Unit testing framework for code quality
+Language: TypeScript
 
-localStorage — Browser storage for user credentials (temporary, no backend)
+State & Routing: React hooks + Next.js Router
 
-Vercel / Netlify — Hosting and deployment platform
-
-Webpack — Module bundler for optimized production build
-
-ESLint — Linter for code quality and consistency
+Bundler: Webpack (managed by Next.js internally)
 
 Run Command:-
 npm run dev
