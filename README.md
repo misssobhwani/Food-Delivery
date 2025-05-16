@@ -6,6 +6,8 @@
 This project is a fully responsive, production-ready React/Next.js application developed by extracting design assets from a Figma template. It features pixel-perfect Login and Home pages based on the provided design.
 
 🚀 Features
+
+
 Fully responsive Login and Home pages
 
 Extracted and applied design assets: icons, fonts, colors, layout 🎨
@@ -24,7 +26,11 @@ Successful login redirects to the Home page
 
 Seamless navigation using Next.js client routing
 
+
+
+
 🛠️ Tech Stack
+
 Framework: Next.js
 
 Styling: Tailwind CSS && Styled components
@@ -34,6 +40,9 @@ Language: TypeScript
 State & Routing: React hooks + Next.js Router
 
 Bundler: Webpack (managed by Next.js internally)
+
+
+
 
 Run Command:-
 npm run dev
