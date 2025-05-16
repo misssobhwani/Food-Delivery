@@ -1,15 +1,11 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Your custom styles here */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +19,51 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  gap:16px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* this sets the spacing */
+}
+
+.nav-item {
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+}
+
+.nav-divider {
+  height: 24px;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.nav-icon .icon {
+  width: 20px;
+  height: 20px;
+  color: #000;
+}
+
+.user-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.user-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }

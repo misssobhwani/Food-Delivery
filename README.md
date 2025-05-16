@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Responsive Login & Home Page App | Built with React & Next.js
 
-## Getting Started
+Overview:-
+This project is a fully responsive, production-ready React/Next.js application developed by extracting design assets from a Figma template. It features pixel-perfect Login and Home pages based on the provided design.
 
-First, run the development server:
+Features:-
+Implemented fully responsive Login and Home pages based on design specs
 
-```bash
+If you are a new user and don’t have credentials, you can navigate to the Sign Up page
+
+Sign Up page allows creating an account with password validation requiring a minimum of 8 characters
+
+User credentials are stored in localStorage due to absence of a backend database
+
+Only valid credentials saved in localStorage allow successful login
+
+Upon successful login, the app navigates you automatically to the Home page
+
+Smooth client-side routing and state management using Next.js navigation.
+
+Icons are custom SVGs — no external icon libraries used
+
+Tech Stack
+React — Frontend UI library
+
+Next.js — React framework with server/client routing
+
+Tailwind CSS & Styled component  — Utility-first styling for responsive design
+
+Jest — Unit testing framework for code quality
+
+localStorage — Browser storage for user credentials (temporary, no backend)
+
+Vercel / Netlify — Hosting and deployment platform
+
+Webpack — Module bundler for optimized production build
+
+ESLint — Linter for code quality and consistency
+
+Run Command:-
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contribution
+Feel free to open issues or submit pull requests if you want to contribute or suggest improvements.
