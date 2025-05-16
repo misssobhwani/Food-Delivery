@@ -1,14 +1,5 @@
 // app/components/Navbar.tsx
 "use client";
-
-import Link from "next/link";
-import Image from "next/image";
-import { FiSearch } from "react-icons/fi";
-import SearchIcon from "../../../public/search.svg";
-// import { ShoppingCart } from 'lucide-react';
-
-// components/Header.tsx
-import { ShoppingCart, Search } from "lucide-react";
 import NavLinks from "../navLinks/page";
 
 <svg
