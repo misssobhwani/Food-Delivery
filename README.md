@@ -1,41 +1,48 @@
+🍔 Food Delivery App
+
 🚀 Responsive Login & Home Page App | Built with React & Next.js
 
-Overview:-
+**Overview**:-
 This project is a fully responsive, production-ready React/Next.js application developed by extracting design assets from a Figma template. It features pixel-perfect Login and Home pages based on the provided design.
 
-Features:-
-Implemented fully responsive Login and Home pages based on design specs
+🚀 Features
 
-If you are a new user and don’t have credentials, you can navigate to the Sign Up page
 
-Sign Up page allows creating an account with password validation requiring a minimum of 8 characters
+Fully responsive Login and Home pages
 
-User credentials are stored in localStorage due to absence of a backend database
+Extracted and applied design assets: icons, fonts, colors, layout 🎨
 
-Only valid credentials saved in localStorage allow successful login
+Icons are **custom SVGs** — no external icon libraries used
 
-Upon successful login, the app navigates you automatically to the Home page
+Email and password form **validation** on login/signup pages (min. 8 chars password) 🔐
 
-Smooth client-side routing and state management using Next.js navigation.
+Users can sign up if they don’t have credentials
 
-Icons are custom SVGs — no external icon libraries used
+Credentials are stored in **Local Storage** (for demo purposes)
 
-Tech Stack
-React — Frontend UI library
+Only valid credentials can log in
 
-Next.js — React framework with server/client routing
+Successful login redirects to the Home page
 
-Tailwind CSS & Styled component  — Utility-first styling for responsive design
+Seamless navigation using Next.js client routing
 
-Jest — Unit testing framework for code quality
 
-localStorage — Browser storage for user credentials (temporary, no backend)
 
-Vercel / Netlify — Hosting and deployment platform
 
-Webpack — Module bundler for optimized production build
+🛠️ Tech Stack
 
-ESLint — Linter for code quality and consistency
+Framework: Next.js
+
+Styling: Tailwind CSS && Styled components
+
+Language: TypeScript
+
+State & Routing: React hooks + Next.js Router
+
+Bundler: Webpack (managed by Next.js internally)
+
+
+
 
 Run Command:-
 npm run dev
