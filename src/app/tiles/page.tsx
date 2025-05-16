@@ -5,10 +5,9 @@ import React, { useState } from "react";
 type TileProps = {
   label: string;
   icon: string; // can be emoji or image path
-  active?: boolean;
 };
 
-export default function Tile({ label, icon, active = false }: TileProps) {
+export default function Tile({ label, icon }: TileProps) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div

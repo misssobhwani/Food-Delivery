@@ -2,7 +2,6 @@
 
 import React from "react";
 import Header from "../navbar/page";
-import { Main } from "next/document";
 import MainBody from "../mainbody/page";
 
 

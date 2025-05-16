@@ -9,11 +9,6 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
   const router = useRouter();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert(`Logging in with\nEmail: ${email}\nPassword: ${password}`);
-  };
-
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
