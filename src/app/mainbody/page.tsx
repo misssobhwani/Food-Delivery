@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import { categories } from "../utils/utils";
-import Tile from "../tiles/page";
+import Tile from "@/components/Tile";
+
 
 const MainBody = () => {
   return (
